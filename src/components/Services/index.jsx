@@ -1,11 +1,5 @@
 import React from "react";
-import Account from "../../assets/images/acc.jpg";
-import Camera from "../../assets/images/camera.jpg";
-import Tracking from "../../assets/images/track.jpg";
-import WireConnection from "../../assets/images/connect-wire.jpg";
-import Web from "../../assets/images/web.jpg";
-import Server from "../../assets/images/server.jpg";
-import Indicator from "../indicator";
+import Img from "react-optimized-image";
 import {
   BossMan,
   Gafar,
@@ -14,8 +8,17 @@ import {
   ServiceCardImageWrapper,
   ServicesContainer,
 } from "./Services.styled";
+
+import Account from "../../assets/images/acc.jpg";
+import Camera from "../../assets/images/camera.jpg";
+import Tracking from "../../assets/images/track.jpg";
+import WireConnection from "../../assets/images/connect-wire.jpg";
+import Web from "../../assets/images/web.jpg";
+import Server from "../../assets/images/server.jpg";
+import Indicator from "../indicator";
 import { Grid, IconButton, Typography } from "@mui/material";
 import { ArrowForwardIosOutlined } from "@mui/icons-material";
+
 export default function _Services() {
   const Services = [
     {
